@@ -24,9 +24,23 @@ int main (int argc, char *argv[]){
         int valeur=0, nbessai=0, atrouver;
         srand(time(NULL));
         atrouver = rand() % 100; //initialisation de la valeur aléatoire
-
         time_t t;
-        
+
+//Affichage du score et de la date du record en debut du jeu
+static const char resultat[] = "resultat.txt";
+   FILE *file = fopen (resultat, "r");
+   if ( file != NULL ){
+      char ligne [128];
+ 
+      while (fgets (ligne, sizeof ligne, file) != NULL) { //lecture de la ligne
+         printf("Score : %s", ligne);
+
+      }
+      fclose (file);
+   }
+   else
+      perror (resultat);
+
         do{
                 printf("Entrer un nombre entre 1 et 100 : ");
                 scanf("%d", &valeur);
@@ -39,13 +53,12 @@ int main (int argc, char *argv[]){
                         printf("Bravo vous avez trouvé la bonne valeur en %d coups !\n",nbessai);
                         time(&t);
                         fichier = fopen("resultat.txt", "a+");
-                if (fichier != NULL){
-                fprintf(fichier, "%d coup(s) le %s", nbessai,ctime(&t));
-                fclose(fichier);
-                }
+                        if (fichier != NULL){
+                                fprintf(fichier, "%d coup(s) le %s", nbessai,ctime(&t));
+                                fclose(fichier);
+                        }
                 }
          }while(valeur != atrouver);
                  
 }
-
 
