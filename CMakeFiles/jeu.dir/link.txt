@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/jeu.dir/jeu.c.o  -o jeu -rdynamic 

@@ -1,0 +1,3 @@
+/home/abayrak/Bureau/Jeu/CMakeFiles/edit_cache.dir
+/home/abayrak/Bureau/Jeu/CMakeFiles/rebuild_cache.dir
+/home/abayrak/Bureau/Jeu/CMakeFiles/jeu.dir

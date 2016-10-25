@@ -1,0 +1,40 @@
+\hypertarget{jeu_8c}{}\section{jeu.\+c File Reference}
+\label{jeu_8c}\index{jeu.\+c@{jeu.\+c}}
+
+
+Exercice afin de mettre en place Emacs, G\+IT, Doxygen.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$time.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+Include dependency graph for jeu.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{jeu_8c_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})\hypertarget{jeu_8c_a0ddf1224851353fc92bfbff6f499fa97}{}\label{jeu_8c_a0ddf1224851353fc92bfbff6f499fa97}
+
+\begin{DoxyCompactList}\small\item\em debut du main \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+F\+I\+LE $\ast$ {\bfseries fichier} = N\+U\+LL\hypertarget{jeu_8c_a8c69f8b51c06c11110b56707f6e194b9}{}\label{jeu_8c_a8c69f8b51c06c11110b56707f6e194b9}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Exercice afin de mettre en place Emacs, G\+IT, Doxygen. 
+
+Ce programme permet de trouver une valeur compris entre 1 et 100
+
+\begin{DoxyAuthor}{Author}
+Ali Bayrak, \href{mailto:ali.bayrak@live.fr}{\tt ali.\+bayrak@live.\+fr} 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+October 25 2016 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000001}{Todo}]Creer un autre programme pour recuperer le meilleur score \end{DoxyRefDesc}
